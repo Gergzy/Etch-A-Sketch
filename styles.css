@@ -1,0 +1,99 @@
+body {
+    background-color: aliceblue;
+}
+
+.mainHeading {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 480px;
+    width:480px;
+    gap: 0px;
+    flex-direction: column;
+}
+
+
+.rowCol {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.gridItem {
+    flex: 1;
+
+}
+.gridItem:hover {
+    background-color: black;
+}
+
+.slideContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 480px;
+    background: #9a9e9c;
+    outline: none;
+    opacity: .7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.sliderText {
+    font-size: 30px;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 110px;
+}
+
+.mode {
+    font-size: 40px;
+}
+
+.bwClicked {
+    background-color: rgb(0, 0, 0);
+}
+
